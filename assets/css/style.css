@@ -2,7 +2,7 @@
 Project:	    AppStorm
 Version:        1.0.0
 
-Default Color   #f26d7d;
+Default Color   #F87D17;
 
 Body copy:		'Poppins', sans-serif; 15px;
 Headers:		'Poppins', sans-serif;
@@ -104,7 +104,7 @@ h1 {
 }
 
 h2 {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 h3 {
@@ -298,7 +298,7 @@ B. Helpers
 }
 
 .ts-font-color__primary {
-    color: #f26d7d;
+    color: #F87D17;
 }
 
 /*-------------------------------------------
@@ -698,7 +698,7 @@ B. Helpers
 -------------------------------------------*/
 
 a {
-    color: #f26d7d;
+    color: #F87D17;
     transition: .3s ease;
 }
 
@@ -943,7 +943,7 @@ blockquote figure aside i {
 }
 
 blockquote figure aside svg {
-    fill: #f26d7d;
+    fill: #F87D17;
 }
 
 blockquote p {
@@ -1081,14 +1081,14 @@ blockquote h6 {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     /*background-color: darken( var(--color-primary), 20% );
     border-color: darken( var(--color-primary), 20% );*/
-    background-color: #f26d7d;
-    border-color: #f26d7d;
+    background-color: #F87D17;
+    border-color: #F87D17;
     box-shadow: .125rem .1875rem .9375rem rgba(0, 0, 0, .3);
 }
 
 .btn-primary {
-    background-color: #f26d7d;
-    border-color: #f26d7d;
+    background-color: #F87D17;
+    border-color: #F87D17;
     color: #fff;
 }
 
@@ -1119,18 +1119,18 @@ blockquote h6 {
 }
 
 .btn-outline-primary {
-    border-color: #f26d7d;
-    color: #f26d7d;
+    border-color: #F87D17;
+    color: #F87D17;
 }
 
 .btn-outline-primary:hover {
-    background-color: #f26d7d;
-    border-color: #f26d7d;
+    background-color: #F87D17;
+    border-color: #F87D17;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus {
-    background-color: #f26d7d;
-    border-color: #f26d7d;
+    background-color: #F87D17;
+    border-color: #F87D17;
     box-shadow: 0 0 0 .2rem rgba(242, 109, 125, .5);
 }
 
@@ -1334,7 +1334,7 @@ hr {
 }
 
 .ts-item-header .icon .step {
-    background-color: #f26d7d;
+    background-color: #F87D17;
     bottom: 0;
     box-shadow: .125rem .1875rem .9375rem rgba(0, 0, 0, .15);
     border-radius: 50%;
@@ -1524,13 +1524,13 @@ iframe div {
 
 .progress {
     background-color: transparent;
-    border: .125rem solid #f26d7d;
+    border: .125rem solid #F87D17;
     border-radius: 0;
     height: .625rem;
 }
 
 .progress .progress-bar {
-    background-color: #f26d7d;
+    background-color: #F87D17;
 }
 
 /*-------------------------------------------
@@ -1552,7 +1552,7 @@ iframe div {
 .ts-promo-number .ts-promo-number-divider:after {
     content: "";
     bottom: 0;
-    border: .125rem solid #f26d7d;
+    border: .125rem solid #F87D17;
     border-radius: 50%;
     height: .625rem;
     margin: auto;
@@ -1646,7 +1646,7 @@ select::-ms-expand {
 .nav-tabs .nav-link.active {
     color: #191919;
     background-color: transparent;
-    border-bottom: .1875rem solid #f26d7d;
+    border-bottom: .1875rem solid #F87D17;
     opacity: 1;
 }
 
@@ -1941,12 +1941,12 @@ E. Template Specific Elements
 }
 
 .ts-time-line__horizontal .ts-time-line__item.ts-time-line__milestone .ts-box {
-    background-color: #f26d7d;
+    background-color: #F87D17;
     color: #fff;
 }
 
 .ts-time-line__horizontal .ts-time-line__item.ts-time-line__milestone .ts-box:after {
-    border-color: #f26d7d transparent transparent transparent;
+    border-color: #F87D17 transparent transparent transparent;
 }
 
 .ts-time-line__horizontal .ts-time-line__item.ts-time-line__milestone h5 {
@@ -2017,6 +2017,11 @@ figure.icon {
 .ts-svg__organic-shape-03 {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'  width='108.618' height='86.25'%3E%3cpath fill='%23f26d7d' d='M108.445,46.167c-3.677,13.771-12.625,26.526-26.764,32.547c-2.528,1.363-5.106,2.603-7.67,3.738 c-3.185,1.265-6.416,2.135-9.66,2.646c-16.22,2.553-32.746-3.877-45.176-14.933c-2.598-2.371-4.996-4.983-7.159-7.81 C5.546,53.879,1.18,43.477,0.023,31.901c-0.263-7.015,1.76-13.089,5.305-18.164c1.773-2.538,3.927-4.826,6.362-6.853 c34.619-23.33,88.777,19.27,94.878,29.671C109.214,40.443,108.6,42.851,108.445,46.167z'/%3E%3c/svg%3E");
     width: 100%;
+}
+
+.btn-whatsapp{
+    border-color: #49c958;
+    background-color: #49c958;
 }
 
 /* NEW */
